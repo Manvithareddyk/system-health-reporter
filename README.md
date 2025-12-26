@@ -34,6 +34,7 @@ system-health-reporter/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+```
 
 ### File Description
 - `app/main.py` – Main Python script that collects and prints system health metrics  
