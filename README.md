@@ -1,31 +1,3 @@
-# System Health Reporter
-
-## Overview
-System Health Reporter is a Python-based CLI tool developed as part of the **Atomixtools Software Developer Intern assignment**.
-
-The tool collects system health metrics such as **CPU usage**, **memory usage**, and **disk usage**, and displays the results in a structured **JSON format**.  
-The project is fully **Dockerized** for easy execution across environments.
-
----
-
-## Features
-- CPU usage monitoring
-- Memory usage monitoring
-- Disk usage monitoring
-- JSON formatted output
-- Optional verbose mode
-- Docker support
-
----
-
-## Tech Stack
-- Python 3
-- Docker
-- Git & GitHub
-
----
-
-## Project Structure
 
 # System Health Reporter
 
@@ -53,42 +25,16 @@ The project is fully **Dockerized** for easy execution across environments.
 - Git & GitHub
 
 ---
-
 ## Project Structure
-# System Health Reporter
 
-## Overview
-System Health Reporter is a Python-based CLI tool developed as part of the **Atomixtools Software Developer Intern assignment**.
-
-The tool collects system health metrics such as **CPU usage**, **memory usage**, and **disk usage**, and displays the results in a structured **JSON format**.  
-The project is fully **Dockerized** for easy execution across environments.
-
----
-
-## Features
-- CPU usage monitoring
-- Memory usage monitoring
-- Disk usage monitoring
-- JSON formatted output
-- Optional verbose mode
-- Docker support
-
----
-
-## Tech Stack
-- Python 3
-- Docker
-- Git & GitHub
-
----
-
-## Project Structure
+```text
 system-health-reporter/
 ├── app/
-│ └── main.py
+│   └── main.py
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+
 ### File Description
 - `app/main.py` – Main Python script that collects and prints system health metrics  
 - `Dockerfile` – Instructions to build the Docker image  
