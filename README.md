@@ -83,11 +83,13 @@ docker build -t system-health-reporter .
 docker run system-health-reporter
 ```
 ## Output Format
+``` text
 {
   "cpu_usage": "15%",
   "memory_usage": "45%",
   "disk_usage": "60%"
 }
+```
 
 
 
