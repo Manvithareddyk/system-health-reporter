@@ -78,7 +78,7 @@ python app/main.py --verbose
 ``` bash
 docker build -t system-health-reporter .
 ```
-### 2.Run the Docker contaner using built image
+### 2.Run the Docker container using built image
 ``` bash
 docker run system-health-reporter
 ```
